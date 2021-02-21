@@ -59,10 +59,8 @@ public class TVShow {
             removedBox = 0;
         } else if (!boxes[1].isContainsPrize() && chosenBox != 1) {
             removedBox = 1;
-        } else if (!boxes[2].isContainsPrize() && chosenBox != 2) {
-            removedBox = 2;
         } else {
-            System.out.println("UH OH!");
+            removedBox = 2;
         }
     }
 
